@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgba(0, 128, 0, 0.719);
+}
+.container {
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.815);
+  width: 400px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 2px solid #636262;
+  box-shadow: -2px -2px 15px #636262;
+}
+input {
+  width: 350px;
+  border-radius: 7px;
+  border: 2px solid black;
+  background-color: rgba(255, 255, 255, 0.973);
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  margin: 20px 0 13px 0;
+}
+input[type="submit"] {
+  cursor: pointer;
+  width: 373px;
+  background-color: rgba(0, 128, 0, 0.719);
+  color: white;
+  border: 2px solid black;
+  margin-top: 30px;
+}
+p {
+  margin: 0px 0 10px 0;
+  color: red;
+  font-size: 18px;
+}
