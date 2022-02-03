@@ -27,6 +27,7 @@ function formValidation() {
 
     if (flag) {
         return true;
+        alert("Form submitted successfully");
     } else {
         return false;
     }
