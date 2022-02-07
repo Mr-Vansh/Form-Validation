@@ -3,7 +3,7 @@ let password = document.getElementById("password");
 let flag = 1;
 
 function formValidation() {
-    if (username.value == " ") {
+    if (username.value == "") {
         document.getElementById("userError").innerHTML =
             "* Invalid Username *";
         flag = 0;
@@ -16,7 +16,7 @@ function formValidation() {
         flag = 1;
     }
 
-    if (password.value == " ") {
+    if (password.value == "") {
         document.getElementById("passError").innerHTML =
             "* Invalid Password *";
         flag = 0;
