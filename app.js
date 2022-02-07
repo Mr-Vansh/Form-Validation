@@ -7,6 +7,10 @@ function formValidation() {
         document.getElementById("userError").innerHTML =
             "* Invalid Username *";
         flag = 0;
+    } else if(username.value.length < 3) {
+        document.getElementById("userError").innerHTML = 
+            "Username must contain minimum 3 characters.";
+        flag = 0;
     } else {
         document.getElementById("userError").innerHTML = "";
         flag = 1;
